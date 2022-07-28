@@ -21,7 +21,7 @@ import sys
 MAX_THREADS = 200
 BUFSIZE = 2048
 TIMEOUT_SOCKET = 5
-LOCAL_ADDR = '3.36.124.202'
+LOCAL_ADDR = '172.17.0.4'
 LOCAL_PORT = 9050
 # Parameter to bind a socket to a device, using SO_BINDTODEVICE
 # Only root can set this option
