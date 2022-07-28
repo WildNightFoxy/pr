@@ -13,7 +13,9 @@ import traceback
 from threading import Thread, activeCount
 from signal import signal, SIGINT, SIGTERM
 from time import sleep
+from keep_alive import keep_alive 
 import sys
+keep_alive()
 
 #
 # Configuration
